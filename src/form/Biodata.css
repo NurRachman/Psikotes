@@ -1,0 +1,26 @@
+div .bio_main {
+    padding: 32px 32px;
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(356deg, rgba(255,255,255,1) 50%, rgba(230,241,255,1) 100%);
+}
+
+div.jdl_bio{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+div.jdl_bio h3{
+    margin-left: 30%;
+    margin-top: 15px;
+    color: rgb(0, 63, 110)
+}
+
+div.jdl_bio img.logo_bio{
+    height: auto;
+    width: 15%;
+}
+
+div .bio_btn{
+    margin-left: 46%;
+}

@@ -1,0 +1,67 @@
+.wpt{
+    background: rgb(255,255,255);
+    background: linear-gradient(356deg, rgba(255,255,255,1) 50%, rgba(230,241,255,1) 100%); 
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    padding: 40px 60px;
+    background-color: rgb(250, 250, 250);
+}
+
+.wpt b{
+    font-size: 14px;
+}
+
+.wpt i{
+    font-size: 14px;
+}
+
+.wpt ul{
+    font-size: 14px;
+}
+
+.wpt ul li{
+    font-size: 14px;
+}
+
+.wpt p{
+    align-items: center;
+    font-size: 14px;
+}
+
+div.ins_wpt img.logo_h_disc{
+    height: auto;
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+.wpt h2{
+    font-weight: bold;
+    color: rgb(0, 63, 110)
+}
+
+.wpt b{
+    margin-left: 14px;
+}
+
+.wpt .btn_wpt{
+    padding-top: -20px;
+}
+
+div.finish img.finish_img {
+    margin-left: 40%;
+    height: auto;
+    width: 20%;
+}
+
+.wpt img.bg_wpt {
+    margin-left: 100px;
+    padding-top: 150px;
+    height: auto;
+    width: 80%;
+}
+
+div.ins_wpt div.form-group {
+    border: solid gray;
+    border-radius: 6px;
+    border-width: thin;
+}

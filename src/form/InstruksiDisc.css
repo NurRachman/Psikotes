@@ -1,0 +1,30 @@
+.disc{
+    background: rgb(255,255,255);
+    background: linear-gradient(356deg, rgba(255,255,255,1) 50%, rgba(230,241,255,1) 100%); 
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    padding: 40px 60px;
+    height: 100vh;
+}
+
+div.ins_disc img.logo_h_disc{
+    height: auto;
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+div p{
+    align-items: center;
+}
+
+div h2{
+    font-weight: bold;
+    color: rgb(0, 63, 110)
+}
+
+div img.bg_disc {
+    margin-left: 100px;
+    padding-top: 150px;
+    height: auto;
+    width: 80%;
+}

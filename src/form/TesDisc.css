@@ -1,0 +1,5 @@
+div._disc {
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(356deg, rgba(255,255,255,1) 50%, rgba(230,241,255,1) 100%); 
+}

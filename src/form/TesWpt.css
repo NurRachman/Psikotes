@@ -1,0 +1,47 @@
+div._wpt {
+    height: 100vh;
+    padding: 40px 60px;
+    background: rgb(255,255,255);
+    background: linear-gradient(356deg, rgba(255,255,255,1) 50%, rgba(230,241,255,1) 100%); 
+}
+
+div.header {
+    display: flex;
+    padding: 30px 0px;
+    margin-bottom: auto;
+}
+
+div.timer {
+    padding-bottom: 10px;
+}
+
+div.timer b{
+    color: rgb(0, 63, 110);
+    padding: 10px 10px;
+    border-style: solid;
+    border-color: rgb(0, 63, 110);
+    border-radius: 6px;
+}
+
+div.header h1{
+    margin-left: 18%;
+    font-weight: bold;
+    color: rgb(0, 63, 110)
+}
+
+div.header img.logo_disc {
+    margin-top: 5px;
+    height: 15%;
+    width: 15%;
+}
+
+div.soal_wpt div.form-group {
+    box-shadow: 1px 1px 5px grey;
+    border: solid gray;
+    border-radius: 6px;
+    border-width: thin;
+}
+
+input.form-control {
+    margin-top: 10px;
+}

@@ -1,0 +1,13 @@
+.steps-content {
+  margin-top: 16px;
+  border: 1px dashed #fafafa;
+  border-radius: 2px;
+  background-color:#fafafa;
+  text-align: center;
+  border-radius: 5px;
+  /* padding-top: 80px; */
+}
+
+.steps-action {
+  margin-top: 24px;
+}

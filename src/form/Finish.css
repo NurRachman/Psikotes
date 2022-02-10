@@ -1,0 +1,39 @@
+.finish{
+    height: 100vh;
+    padding: 40px 60px;
+    background: rgb(255,255,255);
+    background: linear-gradient(356deg, rgba(255,255,255,1) 50%, rgba(230,241,255,1) 100%); 
+}
+
+div.ins_finish {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+}
+
+div.ins_finish img.logo_h_finish {
+    height: auto;
+    width: 15%;
+}
+
+div p{
+    align-items: center;
+}
+
+div.ins_finish h3{
+    margin-top: 40px;
+    font-weight: bold;
+    color: rgb(0, 63, 110)
+}
+
+div.ins_finish p {
+    font-size: 15px;
+}
+
+div.ins_finish img.bg_finish {
+    margin-top: 80px;
+    height: auto;
+    width: 40%;
+}
