@@ -268,7 +268,7 @@ export default class TesDisc extends Component {
 
     renderContoh() {
         return (
-            <Container style={{ textAlign: 'left', marginTop: '10px' }}>
+            <Container style={{ textAlign: 'left', marginTop: '10px', }}>
                 <Row className="container">
                     <Col>
                         <h4>
@@ -296,19 +296,19 @@ export default class TesDisc extends Component {
                         <tbody>
 
                             <tr style={{ border: 'none' }} >
-                                <th style={{ border: 'none', padding: '0px' }} rowSpan="5" >
-                                    < div style={{ fontWeight: 'bold', marginTop: '50%', textAlign: 'center', padding: '0px', transform: 'rotate(270deg)' }}>
+                                <th style={{ width: '50px', verticalAlign: 'middle', border: 'none', padding: '0px' }} rowSpan="5" >
+                                    < div style={{ fontWeight: 'bold', textAlign: 'center', padding: '0px', transform: 'rotate(270deg)' }}>
                                         <label>Example</label>
                                     </div>
                                 </th>
-                                <th style={{ fontWeight: 'bold', Height: '7px' }}> P </th>
-                                <th style={{ fontWeight: 'bold' }}> K </th>
+                                <th style={{ width: '40px', fontWeight: 'bold', padding: 5 }}> P </th>
+                                <th style={{ width: '40px', fontWeight: 'bold', padding: 5 }}> K </th>
                                 <th style={{ backgroundColor: '#969190', minWidth: '150px' }}> </th>
                             </tr>
                             <tr>
                                 <td >
                                 </td>
-                                <td style={{ padding: '0px', fontSize: '13px' }}> </td>
+                                <td style={{ padding: '0px', fontSize: '13px', fontWeight: 'bold'}}> X </td>
                                 <td style={{ padding: '0px', fontSize: '13px' }}>Mudah bergaul, ramah</td>
                             </tr>
                             <tr>
@@ -317,7 +317,7 @@ export default class TesDisc extends Component {
                                 <td style={{ padding: '0px', fontSize: '13px' }}>Penuh kepercayaan, percaya pada orang lain</td>
                             </tr>
                             <tr>
-                                <td style={{ padding: '0px', fontSize: '13px' }}> </td>
+                                <td style={{ padding: '0px', fontSize: '13px', fontWeight: 'bold'}}> X </td>
                                 <td style={{ padding: '0px', fontSize: '13px' }}> </td>
                                 <td style={{ padding: '0px', fontSize: '13px' }}>Petualang, pengambil resiko</td>
                             </tr>
@@ -340,11 +340,11 @@ export default class TesDisc extends Component {
     renderHeaderSectionTab(noSoal) {
         return (
             <tr style={{ border: 'none', textAlign: 'center' }} >
-                <td style={{ border: 'none', padding: '10px', verticalAlign: 'middle' }} rowSpan="5" >
+                <td style={{ width: '50px', border: 'none', padding: '10px', verticalAlign: 'middle' }} rowSpan="5" >
                     < div style={{ fontWeight: 'bold', textAlign: 'center', padding: '0px', }}>{noSoal}</div>
                 </td>
-                <th style={{ fontWeight: 'bold', padding: 5 }}> P </th>
-                <th style={{ fontWeight: 'bold', padding: 5 }}> K </th>
+                <th style={{ width: '40px', fontWeight: 'bold', padding: 5 }}> P </th>
+                <th style={{ width: '40px', fontWeight: 'bold', padding: 5 }}> K </th>
                 <th style={{ backgroundColor: '#969190', minWidth: '150px', padding: 5 }}> </th>
             </tr>
         );
@@ -587,19 +587,20 @@ export default class TesDisc extends Component {
                                                         soal.detail.map((optional) => {
                                                             return (
                                                                 <tr>
-                                                                    <td style={{ padding: '1px', fontSize: '13px', textAlign: 'center' }}>
+                                                                    <td style={{ padding: '0px', fontSize: '13px', textAlign: 'center', verticalAlign: 'middle', height: '25px' }}>
                                                                         <input 
+                                                                        name={`${soal.noSoal}P`}
                                                                             type="radio" 
                                                                             value="option2"
                                                                         />
                                                                     </td>
-                                                                    <td style={{ padding: '0px', fontSize: '13px', textAlign: 'center' }}>
-                                                                        <input 
+                                                                    <td style={{ padding: '0px', fontSize: '13px', textAlign: 'center' , verticalAlign: 'middle', height: '25px'}}>
+                                                                        <input name={`${soal.noSoal}K`}
                                                                             type="radio" 
                                                                             value="option2" 
                                                                         />
                                                                     </td>
-                                                                    <td style={{ padding: '0px', fontSize: '13px' }}>{optional}</td>
+                                                                    <td style={{ padding: '0px', paddingLeft: '5px', fontSize: '13px' }}>{optional}</td>
                                                                 </tr>
                                                             );
                                                         })
@@ -611,7 +612,8 @@ export default class TesDisc extends Component {
                                 })
                             }               
              </Row>
-             </Container>
+             <Button shape="round" size="large" style={{background: "rgb(0, 63, 110)", borderColor: "rgb(0, 63, 110)", marginBottom: "60px"}} type="primary">Submit</Button>
+             </Container>   
              </React.Fragment>
              
         )
