@@ -10,8 +10,8 @@ function InstruksiDisc() {
         <div className="disc">
             <div></div>
             <div className="ins_disc">
-            <img className="logo_h_disc" src="/image/buana.png" alt="logo"></img>
-            <h2>Petunjuk Pengerjaan Tes Kepribadian</h2>
+            <img className="logo_h_disc" src="/image/AIT.png" alt="logo"></img>
+            <h3>Petunjuk Pengerjaan Tes Kepribadian</h3>
             <p>PETUNJUK PENGERJAAN :</p> 
             <ul>
                 <li>Tes ini terdiri dari 24 soal, dan terdapat 4 kalimat di masing - masing soal tersebut.</li>
@@ -21,6 +21,7 @@ function InstruksiDisc() {
                 </ul></li>
                 <li>Tidak ada jawaban benar dan salah dalam tes ini.</li>
                 <li>Anda wajib menjawab semua soal yang ada sebelum melanjutkan ke halaman berikutnya, sesuai dengan batas waktu yang sudah ditentukan.</li>
+                <li>Anda tidak diperkenankan memilih jawaban yang sama pada setiap kolom.</li>
             </ul>
             <p>PERHATIKAN BAIK-BAIK PETUNJUK PENGERJAAN SEBELUM MELANJUTKAN DAN MANFAATKAN WAKTU DENGAN SEBAIK-BAIKNYA.</p>
             <Link to="/TesDisc">

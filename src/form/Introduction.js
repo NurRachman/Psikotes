@@ -16,9 +16,10 @@ sessionStorage.clear();
             <div>
             </div>
             <div>
-                <img className="logo" src="/image/buana.png" alt="logo"></img>
-                <h2>Selamat Datang di Psikotes Online <br></br>PT Buana Varia Komputama</h2>
-                <p>Dalam kesempatan ini Anda akan mengerjakan tes kepribadian dan kecerdasan dengan batas waktu yang sudah ditentukan. Pastikan Anda menjawab semua soal dengan cepat dan teliti.</p>    
+                <img className="logo" src="/image/AIT.png" alt="logo"></img>
+                <h2>Selamat Datang di Psikotes Online <br></br>PT Akar Inti Teknologi</h2>
+                <p>Dalam kesempatan ini Anda akan mengerjakan tes kepribadian dan kecerdasan dengan batas waktu yang sudah ditentukan. Pastikan Anda menjawab semua soal dengan cepat dan teliti.</p>
+                <p>Sebelum melanjutkan ke tahap selanjutnya pastikan anda sudah mempersiapkan diri dan periksa kembali koneksi internet anda.</p>    
                 <br></br>
                 <Link to="/biodata">
                     <Button type="primary" size="large" shape="round" style={{background: "rgb(0, 63, 110)", borderColor: "rgb(0, 63, 110)"}}>Selanjutnya</Button>

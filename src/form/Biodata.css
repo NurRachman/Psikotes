@@ -1,8 +1,8 @@
 div .bio_main {
     padding: 32px 32px;
     height: 100vh;
-    background: rgb(255,255,255);
-    background: linear-gradient(356deg, rgba(255,255,255,1) 50%, rgba(230,241,255,1) 100%);
+    background: rgb(213, 237, 241);
+    background: linear-gradient(356deg, rgb(213, 238, 240) 50%, rgb(206, 220, 224) 100%);
 }
 
 div.jdl_bio{
@@ -13,7 +13,7 @@ div.jdl_bio{
 div.jdl_bio h3{
     margin-left: 30%;
     margin-top: 15px;
-    color: rgb(0, 63, 110)
+    color: rgb(2, 40, 85)
 }
 
 div.jdl_bio img.logo_bio{

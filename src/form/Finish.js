@@ -22,9 +22,9 @@ export default class Finish extends Component{
     return(
         <div className="finish">
             <div className="ins_finish">
-            <img className="logo_h_finish" src="/image/buana.png" alt="logo"></img><br></br>
+            <img className="logo_h_finish" src="/image/AIT.png" alt="logo"></img><br></br>
             <img className="bg_finish" src="/image/finish.png" alt="logo"></img>
-            <h3>Terima kasih telah menyelesaikan Psikotest Online<br></br> PT Buana Varia Komputama</h3>
+            <h3>Terima kasih telah menyelesaikan Psikotest Online<br></br> PT Akar Inti Teknologi</h3>
             <p>Jika Anda lolos seleksi, kami akan segera menghubungi Anda untuk melanjutkan proses selanjutnya.</p>
             </div>
         </div>

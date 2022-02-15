@@ -134,7 +134,7 @@ export default class TesWpt extends Component{
     return(
         <div className="_wpt">
         <Container>
-        <div className="header"><img className="logo_disc" src="/image/buana.png" alt="logo"></img><h1>Tes Kecerdasan</h1></div>
+        <div className="header"><img className="logo_disc" src="/image/AIT.png" alt="logo"></img><h1>Tes Kecerdasan</h1></div>
         <div className="timer"><b>Sisa waktu : <Timer
     initialTime={60*13000}
     direction="backward"

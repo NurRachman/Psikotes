@@ -11,7 +11,7 @@ function InstruksiWpt() {
         <div className="wpt">
             <div></div>
             <div className="ins_wpt">
-            <img className="logo_h_disc" src="/image/buana.png" alt="logo"></img>
+            <img className="logo_h_disc" src="/image/AIT.png" alt="logo"></img>
             <h2>Petunjuk Pengerjaan Tes Kecerdasan</h2><br></br>
             <ul>
                 <li>Waktu pengerjaan tes ini adalah 13 menit.</li>

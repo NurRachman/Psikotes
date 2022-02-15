@@ -166,7 +166,7 @@ export default class Biodata extends Component {
     render(){
     return (
         <div className="bio_main">
-      <div className="jdl_bio"><img className="logo_bio" src="/image/buana.png" alt="logo"></img><h3><b>Data Diri</b></h3><br></br></div>
+      <div className="jdl_bio"><img className="logo_bio" src="/image/AIT.png" alt="logo"></img><h3><b>Data Diri</b></h3><br></br></div>
       <Form name="biodata" layout='vertical' method="post" onSubmit={this.onSubmit}>
       <Row gutter={[32,32]}>
         <Col span={12}>
@@ -184,20 +184,20 @@ export default class Biodata extends Component {
           </Form.Item>
         </Col>
         <Col span={12}> 
-          <Form.Item name="gender" label="Jenis Kelamin" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "10%" }}>
-            <Select value={this.state.gender} onChange={this.onChangeGender} placeholder="Jenis Kelamin" style={{ borderRadius: 6, width: 140, borderWidth: 2 }}>
+          <Form.Item name="gender" label="Jenis Kelamin" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
+            <Select value={this.state.gender} onChange={this.onChangeGender} placeholder="Jenis Kelamin" style={{ borderRadius: 6, width: 250, borderWidth: 2 }}>
               <Option value="Pria">Pria</Option>
               <Option value="Wanita">Wanita</Option>
             </Select>
           </Form.Item>
-          <Form.Item name="dateofBirth" label="Tanggal Lahir" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "10%" }}>
-              <DatePicker value={this.state.dateofBirth} onChange={this.onChangeDateofBirth} style={{ borderWidth: 2 }}/>
+          <Form.Item name="dateofBirth" label="Tanggal Lahir" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
+              <DatePicker value={this.state.dateofBirth} onChange={this.onChangeDateofBirth} style={{ borderRadius: 6, width: 250, borderWidth: 2 }}/>
           </Form.Item>
-          <Form.Item name="usia" label="Usia" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "10%" }}>
-            <Input value={this.state.usia} onChange={this.onChangeUsia} placeholder="Usia" style={{ borderRadius: 6, width: 140, borderWidth: 2 }} /> tahun
+          <Form.Item name="usia" label="Usia" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
+            <Input value={this.state.usia} onChange={this.onChangeUsia} placeholder="Usia" style={{ borderRadius: 6, width: 250, borderWidth: 2 }} /> 
           </Form.Item>
-          <Form.Item name="phone" label="Nomor Telepon" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "10%" }}>
-            <Input value={this.state.phone} onChange={this.onChangePhone} placeholder="No Telp" style={{ borderRadius: 6, width: 200, borderWidth: 2 }} />
+          <Form.Item name="phone" label="Nomor Telepon" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
+            <Input value={this.state.phone} onChange={this.onChangePhone} placeholder="No Telp" style={{ borderRadius: 6, width: 250, borderWidth: 2 }} />
           </Form.Item>
         </Col>
       </Row>
