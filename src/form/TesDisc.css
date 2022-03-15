@@ -2,7 +2,7 @@
     margin-top: 16px;
     border: 1px dashed #f7fafa;
     border-radius: 2px;
-    background-color:#fdfdfd;
+    background-color:#a3f8ea;
     text-align: center;
     border-radius: 5px;
     margin-bottom: 16;
@@ -16,7 +16,7 @@ width: 1024px;
 left: 208px;
 top: 129px;
 
-background: #ffffff;
+background:#ffffff;
 box-shadow: 2px 3px 7px rgb(255, 255, 255);
 border-radius: 10px;
   }

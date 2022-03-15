@@ -265,7 +265,7 @@ export default class TesDisc extends Component {
             ]
         }
     }
-
+      
     renderContoh() {
         return (
             <Container style={{ textAlign: 'left', marginTop: '10px', }}>
@@ -303,7 +303,7 @@ export default class TesDisc extends Component {
                                 </th>
                                 <th style={{ width: '40px', fontWeight: 'bold', padding: 5 }}> P </th>
                                 <th style={{ width: '40px', fontWeight: 'bold', padding: 5 }}> K </th>
-                                <th style={{ backgroundColor: '#969190', minWidth: '150px' }}> </th>
+                                <th style={{ backgroundColor: '#ff0000', minWidth: '150px' }}> </th>
                             </tr>
                             <tr>
                                 <td >
@@ -345,7 +345,7 @@ export default class TesDisc extends Component {
                 </td>
                 <th style={{ width: '40px', fontWeight: 'bold', padding: 5 }}> P </th>
                 <th style={{ width: '40px', fontWeight: 'bold', padding: 5 }}> K </th>
-                <th style={{ backgroundColor: '#969190', minWidth: '150px', padding: 5 }}> </th>
+                <th style={{ backgroundColor: 'rgb(255, 47, 40)', minWidth: '150px', padding: 5 }}> </th>
             </tr>
         );
     }
@@ -587,14 +587,14 @@ export default class TesDisc extends Component {
                                                         soal.detail.map((optional) => {
                                                             return (
                                                                 <tr>
-                                                                    <td style={{ padding: '0px', fontSize: '13px', textAlign: 'center', verticalAlign: 'middle', height: '25px' }}>
+                                                                    <td style={{ background: "rgb(255, 255, 0)",  padding: '0px', fontSize: '13px', textAlign: 'center', verticalAlign: 'middle', height: '25px' }}>
                                                                         <input 
                                                                         name={`${soal.noSoal}P`}
                                                                             type="radio" 
                                                                             value="option2"
                                                                         />
                                                                     </td>
-                                                                    <td style={{ padding: '0px', fontSize: '13px', textAlign: 'center' , verticalAlign: 'middle', height: '25px'}}>
+                                                                    <td style={{ background:"rgb(127, 255, 7)", padding: '0px', fontSize: '13px', textAlign: 'center' , verticalAlign: 'middle', height: '25px'}}>
                                                                         <input name={`${soal.noSoal}K`}
                                                                             type="radio" 
                                                                             value="option2" 
@@ -615,7 +615,6 @@ export default class TesDisc extends Component {
              <Button shape="round" size="large" style={{background: "rgb(0, 63, 110)", borderColor: "rgb(0, 63, 110)", marginBottom: "60px"}} type="primary">Submit</Button>
              </Container>   
              </React.Fragment>
-             
         )
     }
 }

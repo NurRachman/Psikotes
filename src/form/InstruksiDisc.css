@@ -1,10 +1,10 @@
 .disc{
-    background: rgb(255,255,255);
-    background: linear-gradient(356deg, rgba(255,255,255,1) 50%, rgba(230,241,255,1) 100%); 
+    background-color: rgb(206, 252, 247);
+    background: linear-gradient(356deg, rgba(239, 252, 251) 50%, rgba(184, 250, 244) 100%); 
     display: grid;
     grid-template-columns: 5% 1fr 1fr 5%;
-    padding: 40px 60px;
-    height: 100vh;
+    padding: 30px 40px;
+    height: 150vh;
 }
 
 div.ins_disc img.logo_h_disc{

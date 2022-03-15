@@ -14,12 +14,12 @@ function InstruksiDisc() {
             <h3>Petunjuk Pengerjaan Tes Kepribadian</h3>
             <p>PETUNJUK PENGERJAAN :</p> 
             <ul>
-                <li>Tes ini terdiri dari 24 soal, dan terdapat 4 kalimat di masing - masing soal tersebut.</li>
+                <li>Tes ini terdiri dari 24 soal, di setiap soal terdapat 4 kalimat.</li>
                 <li>Tugas Anda adalah :  
                     <ul><li>Pilih 1 kalimat yang <b>PALING MENGGAMBARKAN DIRI</b> Anda pada kolom huruf “P”.</li>
                         <li>Pilih 1 kalimat yang <b>PALING TIDAK MENGGAMBARKAN DIRI</b> Anda pada kolom huruf “K”.</li>        
                 </ul></li>
-                <li>Tidak ada jawaban benar dan salah dalam tes ini.</li>
+                <li>Tidak ada jawaban benar ataupun salah dalam tes ini.</li>
                 <li>Anda wajib menjawab semua soal yang ada sebelum melanjutkan ke halaman berikutnya, sesuai dengan batas waktu yang sudah ditentukan.</li>
                 <li>Anda tidak diperkenankan memilih jawaban yang sama pada setiap kolom.</li>
             </ul>

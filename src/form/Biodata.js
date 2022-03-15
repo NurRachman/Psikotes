@@ -170,13 +170,13 @@ export default class Biodata extends Component {
       <Form name="biodata" layout='vertical' method="post" onSubmit={this.onSubmit}>
       <Row gutter={[32,32]}>
         <Col span={12}>
-          <Form.Item name="fullname" label="Nama Lengkap (sesuai KTP)" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "35%" }}>
+          <Form.Item name="fullname" label="Full Name (sesuai KTP)" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "35%" }}>
             <Input placeholder="Nama Lengkap" rules={[{ required: true, message: 'Wajib diisi!' }]} value={this.state.fullname} onChange={this.onChangeFullname} style={{ borderRadius: 6, width: 300, borderWidth: 2 }} />
           </Form.Item>
-          <Form.Item name="nik" label="Nomor KTP" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "35%" }}>
+          <Form.Item name="nik" label="ID Number" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "35%" }}>
             <Input placeholder="Nomor KTP" rules={[{ required: true, message: 'Wajib diisi!' }]} value={this.state.nik} onChange={this.onChangeNik} style={{ borderRadius: 6, width: 300, borderWidth: 2 }} />
           </Form.Item>
-          <Form.Item name="pob" label="Tempat Lahir" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "35%" }}>
+          <Form.Item name="pob" label="Place of Birth" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "35%" }}>
             <Input placeholder="Tempat Lahir" value={this.state.pob} onChange={this.onChangePob} style={{ borderRadius: 6, width: 300, borderWidth: 2 }} />
           </Form.Item>
           <Form.Item name="email" label="Email" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "35%" }}>
@@ -184,19 +184,19 @@ export default class Biodata extends Component {
           </Form.Item>
         </Col>
         <Col span={12}> 
-          <Form.Item name="gender" label="Jenis Kelamin" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
+          <Form.Item name="gender" label="Gender" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
             <Select value={this.state.gender} onChange={this.onChangeGender} placeholder="Jenis Kelamin" style={{ borderRadius: 6, width: 250, borderWidth: 2 }}>
               <Option value="Pria">Pria</Option>
               <Option value="Wanita">Wanita</Option>
             </Select>
           </Form.Item>
-          <Form.Item name="dateofBirth" label="Tanggal Lahir" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
+          <Form.Item name="dateofBirth" label="Date of Birth" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
               <DatePicker value={this.state.dateofBirth} onChange={this.onChangeDateofBirth} style={{ borderRadius: 6, width: 250, borderWidth: 2 }}/>
           </Form.Item>
-          <Form.Item name="usia" label="Usia" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
+          <Form.Item name="usia" label="Age" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
             <Input value={this.state.usia} onChange={this.onChangeUsia} placeholder="Usia" style={{ borderRadius: 6, width: 250, borderWidth: 2 }} /> 
           </Form.Item>
-          <Form.Item name="phone" label="Nomor Telepon" rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
+          <Form.Item name="phone" label="Phone Number " rules={[{ required: true, message: 'Wajib diisi!' }]} style={{ paddingLeft: "13%" }}>
             <Input value={this.state.phone} onChange={this.onChangePhone} placeholder="No Telp" style={{ borderRadius: 6, width: 250, borderWidth: 2 }} />
           </Form.Item>
         </Col>
